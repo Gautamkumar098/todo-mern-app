@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 5000;
 //cors
 app.use(
   cors({
-    origin: "http://localhost:5173",
-       "https://todo-mern-app-sepia.vercel.app",
+    origin:[ "http://localhost:5173",
+       "https://todo-mern-app-sepia.vercel.app",],
     credentials: true,
   }),
 );
